@@ -44,7 +44,7 @@ LISTA_DOMANDE = [
 ]
 
 # 4. FOTO E CANZONE
-LISTA_FOTO = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"] 
+LISTA_FOTO = ["foto/1.jpg", "foto/2.jpg", "foto/3.jpg", "foto/4.jpg", "foto/5.jpg", "foto/6.jpg"] 
 LINK_CANZONE = "https://www.youtube.com/watch?v=34oWyWjqp88" 
 
 # 5. TESTI
@@ -205,4 +205,5 @@ if st.session_state.quiz_superato:
     st.image("https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif", use_container_width=True)
     
     st.success("🎁 HAI SBLOCCATO IL TUO REGALO:")
+
     st.markdown(f"<div style='text-align: center; border: 3px solid #d60045; padding: 20px; border-radius: 15px; background-color: white; color: #d60045;'><h2>{MESSAGGIO_FINALE_SORPRESA}</h2></div>", unsafe_allow_html=True)
